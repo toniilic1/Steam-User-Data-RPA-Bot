@@ -1,4 +1,8 @@
 # Steam User Data RPA Bot
+[![File Number](https://img.shields.io/github/directory-file-count/toniilic1/Steam-User-Data-RPA-Bot "File Number")](https://github.com/toniilic1/Steam-User-Data-RPA-Bot)
+[![Size](https://img.shields.io/github/repo-size/toniilic1/Steam-User-Data-RPA-Bot)](https://github.com/toniilic1/Steam-User-Data-RPA-Bot)
+[![Commits](https://img.shields.io/github/commit-activity/m/toniilic1/Steam-User-Data-RPA-Bot)](https://github.com/toniilic1/Steam-User-Data-RPA-Bot/graphs/commit-activity)
+[![License](https://img.shields.io/github/license/toniilic1/Steam-User-Data-RPA-Bot "License")](https://github.com/toniilic1/Steam-User-Data-RPA-Bot/LICENSE.txt "License")
 
 ## Introduction
 Present the steam user data gathered with steam API on an html document which includes basic user information, list of their games with playtime and a plot counting which genre the user plays most.
@@ -50,7 +54,7 @@ Better yet you can check this article from Robocorp about how to hide your secre
 - https://marketplace.visualstudio.com/items?itemName=robocorp.robotframework-lsp
 
 2. Clone the repository:
-- ```git clone https://github.com/toniilic1/Steam-User-Data-RPA-Bot.git``
+- ```git clone https://github.com/toniilic1/Steam-User-Data-RPA-Bot.git```
 
 3. Get a Steam API key:
 - Go to https://steamcommunity.com/dev/apikey
