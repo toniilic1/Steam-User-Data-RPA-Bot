@@ -1,4 +1,4 @@
-### Steam User Data RPA Bot
+# Steam User Data RPA Bot
 
 ## Introduction
 Present the steam user data gathered with steam API on an html document which includes basic user information, list of their games with playtime and a plot counting which genre the user plays most.
@@ -8,14 +8,14 @@ Present the steam user data gathered with steam API on an html document which in
 ![Screenshot](screenshots/second_page.png)
 
 ## Tools Used
-Python
-Robot Framework
-Pandas
-Matplotlib
-Steam API
-JSON
-CSV
-HTML Document
+- Python
+- Robot Framework
+- Pandas
+- Matplotlib
+- Steam API
+- JSON
+- CSV
+- HTML Document
 
 ## How it works
 For a detailed explanation of how the scripts work, refer to the comments inside the files.
@@ -38,20 +38,22 @@ Due to the overwhelming amount of unneeded data, 'modify_dataset.py' is used ind
 
 ## About the Keys
 Create a new file in the project folder called 'keys.robot', it is already listed in .gitignore and imported in main.robot. This is how it should look like:
+
 ![Screenshot](screenshots/key_storage.png)
+
 Also you can replace the '${STEAM_API_KEY}' and '${USER_STEAM_ID}' arguments for the 'Produce API Data' directly in the 'main.robot' file with the key and steam id.
 Better yet you can check this article from Robocorp about how to hide your secrets: https://robocorp.com/docs/courses/software-robot-project-workflow/hiding-the-secrets
 
 ## Setup
 1. Install these two extensions for Visual Studio Code:
-- ```https://marketplace.visualstudio.com/items?itemName=robocorp.robocorp-code```
-- ```https://marketplace.visualstudio.com/items?itemName=robocorp.robotframework-lsp```
+- https://marketplace.visualstudio.com/items?itemName=robocorp.robocorp-code
+- https://marketplace.visualstudio.com/items?itemName=robocorp.robotframework-lsp
 
 2. Clone the repository:
 - ```git clone https://github.com/toniilic1/Steam-User-Data-RPA-Bot.git``
 
 3. Get a Steam API key:
-- Go to ```https://steamcommunity.com/dev/apikey```
+- Go to https://steamcommunity.com/dev/apikey
 - Log into your steam account
 - For a domain name type in ```localhost```
 - Refer to 'About the Keys' and input your api key and steam id key you want to get data from.
